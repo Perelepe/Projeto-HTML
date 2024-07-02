@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAC</title>
+    <link rel="stylesheet" type="text/css" href="CSS/projeto.css">
+</head>
+
+<body>
+    <div id="titulo">
+        <div id="texto">
+            <a href="pag_inicial.html">
+                <h1>Cadastro de Clientes</h1>
+            </a>
+        </div>
+
+        <nav id="botoes" style="margin: 0; padding: 0;">
+            <a href="listar.html"><button class="button">Lista de Cadastros</button></a>
+            <a href="novo.html"><button class="button">Novo Cadastro</button></a>
+            <a href="quem_somos.html"><button class="button">Quem somos?</button></a>
+        </nav>
+    </div>
+    <div id="corpo">
+        <section id="secao">
+            <form action="confirma.html" method="post" id="cadastro">
+                <fieldset style="border: 2px solid #f78b1f;">
+                    <legend>Dados do Cliente</legend>
+                    Nome:<br>
+                    <input type="text" name="nome" class="caixa" placeholder="Insira seu nome completo" required><br>
+                    Bairro:<br>
+                    <input type="text" name="bairro" class="caixa" placeholder="Insira seu Bairro" required><br>
+                    Telefone 1:<br>
+                    <input type="text" name="telefone" class="caixa" placeholder="(21) 99999-9999" required><br>
+                    Telefone 2:<br>
+                    <input type="text" name="telefone" class="caixa" placeholder="(21) 99999-9999"><br>
+                    <input type="submit" value="Confirmar" class="button">
+                    <input type="reset" value="Limpar" class="button">
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <div id="rodape">
+        <p>Copyright &copy;2024 &#x2022; SENAC</p>
+    </div>
+</body>
+
+</html>

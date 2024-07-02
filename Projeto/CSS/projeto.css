@@ -1,0 +1,126 @@
+.button {
+    background-color: #f78b1f;
+    border: 2px solid #f78b1f;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: #005594;
+    border: 2px solid #005594;
+
+}
+
+.button:active {
+    background-color: #f78b1f;
+    border: 2px solid #f78b1f;
+    transition-duration: 0.1s;
+}
+
+body {    
+    
+    padding-top: 0;
+    font-family: Roboto, sans-serif;
+}
+
+#titulo {
+    height: 140px;
+    margin: 1px 1px 10px 1px;
+    background-color: #005594; 
+    padding-left: 10px;
+}
+#titulo #texto{
+    display: flex;
+}
+h1{
+    margin-bottom: 10px;
+    color:white;
+}
+#corpo {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+#rodape {
+    height: 80px;
+    margin: 1px 1px 10px 1px;
+    background-color: #005594; 
+    padding-left: 10px;
+    padding-top: 6px;
+    color: white;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tabela .linha {
+    height: 40px;
+
+}
+
+.tabela .titulo {
+    background-color: #005594;
+    height: 40px;
+    margin-left: 20%;
+    color: white;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+.tabela .linha:hover {
+    background-color: lightgrey;
+}
+
+td, th {
+    border: 1px solid lightgrey;
+    padding: 8px;
+}
+.caixa  {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+#secao{
+    align-items: center; 
+    border: 2px solid #005594; 
+    border-radius: 4px; 
+    height: 355px; 
+    margin-top: 150px;
+}
+
+#cadastro{
+    border: #005594 solid;
+    color: white;
+    background-color: #005594;
+}
+
+#descricao{
+    display: block;
+}
